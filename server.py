@@ -29,7 +29,7 @@ class Employees_Name(Resource):
         return jsonify(result)
         
 
-api.add_resource(Employees, '/employees') # Route_1
+api.add_resource(Employees, '/empleados') # Route_1
 api.add_resource(Tracks, '/tracks') # Route_2
 api.add_resource(Employees_Name, '/employees/<employee_id>') # Route_3
 
