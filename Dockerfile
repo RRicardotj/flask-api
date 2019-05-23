@@ -1,4 +1,4 @@
-FROM python:3.5.7-alpine3.9
+FROM python:3.5.7-alpine3.9 as my_python
 
 EXPOSE 5000
 
